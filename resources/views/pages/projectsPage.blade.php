@@ -40,6 +40,10 @@
             </div>
             <div class="flex-shrink-0"><span class="text-primary"> May 2023</span></div>
         </div>
+        <hr class="text-primary">
     </div>
 </section>
+ @endsection
+ @section('footer')
+ @include("components.footer")
  @endsection

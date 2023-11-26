@@ -182,3 +182,6 @@
 </section>
 <hr class="text-primary">
 @endsection
+@section('footer')
+@include("components.footer")
+@endsection

@@ -24,4 +24,8 @@ Route::get('/projects',[homeController::class,'projectsPage']);
 Route::get('/education',[homeController::class,'educationPage']);
 Route::get('/interests',[homeController::class,'interests']);
 Route::get('/awards',[homeController::class,'awards']);
+use App\Http\Controllers\ContactController;
+
+Route::get('/contact', [ContactController::class, 'showForm'])->name('contact.form');
+Route::post('/contact', [ContactController::class, 'submitForm'])->name('contact.submit');
 

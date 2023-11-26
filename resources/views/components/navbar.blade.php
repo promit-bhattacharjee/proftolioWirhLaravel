@@ -13,8 +13,9 @@
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="home">Home</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="about">About Me</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="contact">Contact Me</a></li>
+                    
                 </ul>
             </div>
         </nav>

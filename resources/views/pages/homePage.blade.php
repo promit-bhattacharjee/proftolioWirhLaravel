@@ -31,5 +31,10 @@
         </div>
     </div>
     </div>
+    <hr class="text-primary">
 </section>
+@endsection
+@section('footer')
+
+@include("components.footer")
 @endsection
