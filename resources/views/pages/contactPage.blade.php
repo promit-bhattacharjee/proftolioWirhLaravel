@@ -1,8 +1,8 @@
 @extends('layout.app')
 @include("components.navbar")
 @section('content')
-    <div class="container-fluid w-50">
-        <h2>Contact Us</h2>
+    <div class="container-fluid w-50 mt-5">
+        <h2>Contact Me</h2>
 
         @if(session('success'))
             <div class="alert alert-success">
@@ -38,9 +38,11 @@
             </div>
 
             <button type="submit" class="btn mt-5 btn-secondary text-light">Submit</button>
+            <div class="mb-5"></div>
         </form>
     </div>
     <hr class="text-primary">
+    <div class="mb-5"></div>
 @endsection
 @section('footer')
 @include("components.footer")

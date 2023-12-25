@@ -6,7 +6,7 @@
     </h4>
 </div>
 
-<div class="social-icons d-flex justify-content-center align-items-center mt-3">
+<div class="social-icons d-flex justify-content-center align-items-center mt-3 mb-4">
     <a class="social-icon bg-secondary p-2 rounded-circle mr-2" href="https://www.linkedin.com/in/promit-bhattacharjee-59a1a4282/" target="_blank">
         <i class="fab fa-linkedin-in fa-lg"></i>
     </a>
