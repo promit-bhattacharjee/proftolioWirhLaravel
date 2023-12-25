@@ -50,6 +50,14 @@ $kernel = $app->make(Kernel::class);
 
 $response = $kernel->handle(
     $request = Request::capture()
-)->send();
+);
+
+// Redirect to the HomePage if the request is for the root URL
+if ($request->is('/') || $request->is('/index.php')) {
+    header('Location: ' . url('pages/HomePage'));
+    exit;
+}
+
+$response->send();
 
 $kernel->terminate($request, $response);
