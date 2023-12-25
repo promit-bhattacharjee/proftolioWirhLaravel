@@ -54,7 +54,7 @@ $response = $kernel->handle(
 
 // Redirect to the HomePage if the request is for the root URL
 if ($request->is('/') || $request->is('/index.php')) {
-    header('Location: ' . url('/pages/HomePage'));
+    header('Location: ' . url('pages/HomePage'));
     exit;
 }
 
